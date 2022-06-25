@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>My Profile page</title>
+		<link href='stylesheet.css' rel='stylesheet' type='text/css'>
+	</head>
+	<body>
+	<div class='main-menu'>
+		<ul>
+		<li class='active'><a href='Hw1.html'>Home</a></li>
+		<li><a href='Resume.html'>Resume</a></li>
+		<li><a href='Myphotography.html'>My Photography</a></li>
+		<li>Content Me
+			<div class='sub-menu-1'>
+				<ul>
+					<li><a href='contact form'>Contact Form</a></li>
+					<li><a href="https://www.linkedin.com/in/gopichand-puli-jun-6th">LinkedIn</a></li>
+					<li><a href="https://twitter.com/puli_gopichand?t=SaPO3p3n3cb6kTpH6qgDyQ&s=08">Twitter</a></li>
+					<li><a href="https://www.facebook.com/profile.php?id=100008282233019">Facebook</a></li>
+				</ul>
+			</div>
+		</li>
+		</ul>
+	</div>
+	<div class='image'>
+		<img src="Myimg1.jpg" alt="MY Image">
+	</div>
+	<div class='MyInfo'>
+		<h2>My Introduction</h2>
+	</div>
+	<div class='line'></div>
+	<div class='info'>
+		<ul>
+		<li>I am Gopichand Puli. I am studying Masters in Computer science at University of Alabama at Birmingham. My goal is the become a web architect in product based company.</li>
+		<li>I was born and bought in a city called Guntur in the State Andhra Pradesh, India.</li>
+		<li>I completed my bachelor's in Mechanical enginnering at Sathyabama University in 2018. Then I got selected in a software company called Cognizant technology solutions.
+		I started my journey in CTS from September 27th 2018 in Pune, India(One of the best places I have visited so far). I continued my journey in this company for 3.5 years.</li>
+		</ul>
+	</div>
+	</body>
+</html> 

@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>My Profile page</title>
+		<link href='stylesheet.css' rel='stylesheet' type='text/css'>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+	</head>
+	<body>
+	<div class='main-menu'>
+		<ul>
+		<li><a href='Hw1.html'>Home</a></li>
+		<li><a href='Resume.html'>Resume</a></li>
+		<li class='active'><a href='Myphotography.html'>My Photography</a></li>
+		<li>Content Me
+			<div class='sub-menu-1'>
+				<ul>
+					<li><a href='contact form'>Contact Form</a></li>
+					<li><a href="https://www.linkedin.com/in/gopichand-puli-jun-6th">LinkedIn</a></li>
+					<li><a href="https://twitter.com/puli_gopichand?t=SaPO3p3n3cb6kTpH6qgDyQ&s=08">Twitter</a></li>
+					<li><a href="https://www.facebook.com/profile.php?id=100008282233019">Facebook</a></li>
+				</ul>
+			</div>
+		</li>
+		</ul>
+	</div>
+	<div class='wholepage'>
+		<div class='MyInfo'>
+			<h2 style='color:black'>My Showcase</h2>
+		</div>
+		<div class="myphotos">
+		<! Referred from https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_thumbnail_image for styling the images>
+		  <div class="column-1" style='border:1px solid #ddd; border-radius:4px; padding:5px; box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5)'>
+			<a target="_blank" href='2.jpeg'>
+			<img src="2.jpeg" alt="Good and bad" style="width:100%">
+			</a>
+		  </div>
+		  <div class="column-1" style='border:1px solid #ddd; border-radius:4px; padding:5px; box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5)'>
+			<a target="_blank" href='3.jpeg'>
+			<img src="3.jpeg" alt="Forest" style="width:100%">
+			</a>	
+		  </div>
+		  <div class="column-1" style='border:1px solid #ddd; border-radius:4px; padding:5px; box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5)'>
+			<a target="_blank" href='4.jpg'>
+			<img src="4.jpg" alt="The way you see" style="width:100%">
+			</a>
+		  </div>
+		  <div class='column-2' style='border:1px solid #ddd; border-radius:4px; padding:5px; box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5)'>
+			<a target="_blank" href='10.jpg'>
+			<img src="10.jpg" alt="School" style="width:100%">
+			</a>
+		  </div>
+		  <div class='column-2' style='border:1px solid #ddd; border-radius:4px; padding:5px; box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5)'>
+			  <a target="_blank" href='11.jpg'>
+			  <img src="11.jpg" alt="Different ways" style="width:100%">
+			  </a>
+		  </div>
+		  <div class='column-2' style='border:1px solid #ddd; border-radius:4px; padding:5px; box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5)'>
+			<a target="_blank" href='12.jpg'>
+			<img src="12.jpg" alt="Carrier" style="width:100%">
+			</a>
+		  </div>
+		</div>
+	</div>
+	</body>
+</html>

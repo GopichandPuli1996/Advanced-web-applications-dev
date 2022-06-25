@@ -1,0 +1,169 @@
+/* refered main menu from this youtube channel https://www.youtube.com/watch?v=wHFflWvii3M */
+
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}	
+
+body
+{
+	font-family: sans-serif;
+	
+}	
+
+.main-menu
+{
+	background-color: rgba(0, 125, 215, 1);
+	text-align: center;
+}
+
+.main-menu ul 
+{
+	display: inline-flex;
+	list-style: none;
+	color: #fff;
+	font-size: 20px;
+	
+}
+
+.main-menu ul li
+{
+	width: 200px;
+	margin: 15px;
+	padding: 10px;
+}
+
+.main-menu ul li a
+{
+	text-decoration: none;
+	color: #fff;
+}
+
+.active, .main-menu ul li:hover
+{
+	background: #168efa;
+	border-radius: 3px;
+}
+
+.sub-menu-1
+{
+	display:none;
+}
+
+.main-menu ul li:hover .sub-menu-1
+{
+	display: block;
+	position: absolute;
+	background: rgb(0, 125, 215, 1);
+	margin-top: 5px;
+	margin-left: 0px;
+}
+
+.main-menu ul li:hover .sub-menu-1 ul
+{
+	display: block;
+	margin: 10px;
+}
+
+.main-menu ul li:hover .sub-menu-1 ul li
+{
+	width: 150px;
+	padding: 10px;
+	border-bottom: 1px dotted #fff;
+	background: transparent;
+	border-radius: 0;
+	text-align: left;
+}
+
+.main-menu ul li:hover .sub-menu-1 ul li:last-child
+{
+	border-bottom: none;
+}
+.image img
+{
+  width: 80%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height: 800px;
+}	
+
+.MyInfo h2
+{
+	width:90%;
+	margin-top: 30px;
+	margin-left: auto;
+	text-align: left;
+	line-height: 100%;
+	margin-bottom: 10px;
+	font-family: sans-serif;
+}
+.line
+{
+	height: 1.5px;
+	background: black;
+	width:80%;
+	margin-left:auto;
+	margin-right:auto;
+	margin-bottom: 1.5px;
+}
+
+.info
+{
+	width:78%;
+	margin-top: 1.5px;
+	margin-left: auto;
+	margin-right: auto;
+	font-family: sans-serif;
+}
+.info ul
+{
+	margin-bottom: 20px;
+}
+.info ul li
+{
+	margin-bottom: 3px;
+}
+
+/* refered iframe from https://www.youtube.com/watch?v=wHFflWvii3M */
+
+.iframeresume iframe
+{
+	width: 60%;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	height: 700px;
+}
+
+/* https://www.w3schools.com/howto/howto_css_images_side_by_side.asp */
+
+.column-1{
+  width: 33.33%;
+  float: left;
+  padding: 10px;
+  background-color: white;
+}
+
+.column-2
+{
+	width: 33.33%;
+	float: left;
+	padding: 10px;
+}
+
+.myphotos::after {
+  display: table;
+  content: "";
+  clear: both;
+  
+}
+
+.Contactform
+{
+	font-family: sans-serif;
+	text-align: center;
+	margin-top: 20px;
+	margin-bottom:20px;
+}

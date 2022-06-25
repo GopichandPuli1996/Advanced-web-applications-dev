@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>My Profile page</title>
+		<link href='stylesheet.css' rel='stylesheet' type='text/css'>
+	</head>
+	<body>
+		<div class='main-menu'>
+		<ul>
+		<li><a href='Hw1.html'>Home</a></li>
+		<li><a href='Resume.html'>Resume</a></li>
+		<li><a href='Myphotography.html'>My Photography</a></li>
+		<li>Content Me
+			<div class='sub-menu-1'>
+				<ul>
+					<li class='active'><a href='ContactForm.html'>Contact Form</a></li>
+					<li><a href="https://www.linkedin.com/in/gopichand-puli-jun-6th">LinkedIn</a></li>
+					<li><a href="https://twitter.com/puli_gopichand?t=SaPO3p3n3cb6kTpH6qgDyQ&s=08">Twitter</a></li>
+					<li><a href="https://www.facebook.com/profile.php?id=100008282233019">Facebook</a></li>
+				</ul>
+			</div>
+		</li>
+		</ul>
+		</div>
+		<! Referred from https://www.w3schools.com/html/tryit.asp?filename=tryhtml_form_submit for contact us form>
+		<div class='Contactform'>
+			<h2><a style='padding:20px'>Contact Us form</a></h2>
+			<label>First name:</label><br>
+			 <input type="text"><br>
+			 <label>Last name:</label><br>
+			 <input type="text"><br>
+			 <label>Email address:</label><br>
+			 <input type="text"><br>
+			 <label>Message</label><br>
+			 <textarea type="text"  rows="8" cols="40"></textarea><br><br>
+			 <input type="submit" value="Submit">
+		</div>
+	</body>
+</html>
